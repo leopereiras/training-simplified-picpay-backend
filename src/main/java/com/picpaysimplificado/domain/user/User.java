@@ -11,8 +11,8 @@ import java.math.BigDecimal;
 
 import com.picpaysimplificado.domain.dtos.UserDTO;
 
-@Entity
-@Table
+@Entity(name = "users")
+@Table(name = "users")
 @Getter
 @Setter
 @AllArgsConstructor
